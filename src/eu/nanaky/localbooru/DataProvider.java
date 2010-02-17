@@ -1,10 +1,9 @@
 package eu.nanaky.localbooru;
 
-import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-public interface DataProvider extends Serializable {
+public interface DataProvider {
 	
 	public boolean setProperty(String property, String value);
 	public String getProperty(String property);

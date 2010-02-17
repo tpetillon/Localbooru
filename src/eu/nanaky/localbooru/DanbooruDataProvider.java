@@ -22,8 +22,6 @@ import org.xml.sax.SAXException;
 
 public class DanbooruDataProvider implements DataProvider {
 	
-	private static final long serialVersionUID = -538279255793582170L;
-	
 	private String name;
 	private String baseURL;
 	private String salt;
